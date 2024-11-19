@@ -1,6 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "eslint:recommended"],
   "rules": {
-    "no-mixed-spaces-and-tabs":"off"
+    "no-mixed-spaces-and-tabs":"off",
+    "react/no-unescaped-entities":"off"
   }
 }
