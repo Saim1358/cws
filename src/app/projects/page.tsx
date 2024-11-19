@@ -48,7 +48,6 @@ export default function Projects() {
                   href={item.href}
                   className="btn btn-primary mt-5"
                   target="_blank"
-                  disabled
                 >
                   Visit
                 </Link>
