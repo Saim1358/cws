@@ -21,7 +21,7 @@ export default function Projects() {
           transition={{ delay: 0.5, duration: 1 }}
         >
           <h2 className="text-3xl text-center my-5 mb-10">
-            Leteast <span className="text-red-500">Projects</span>
+            Latest <span className="text-red-500">Projects</span>
           </h2>
         </Motion>
         <div className="portfolio-container flex gap-8 p-24 justify-center md:justify-normal">
@@ -48,6 +48,7 @@ export default function Projects() {
                   href={item.href}
                   className="btn btn-primary mt-5"
                   target="_blank"
+                  disabled
                 >
                   Visit
                 </Link>
