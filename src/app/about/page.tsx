@@ -41,7 +41,7 @@ export default function About() {
             <p className="text-lg my-5">
               Hey! I am Saiful Islam Saim . Yah ! I don't have an written certificate to show. 
               I don't have the opportunity to gather that. I don't 
-              believe that a damn certificate can't prove anyone's ability. I believe 
+              believe that a damn certificate can prove anyone's ability. I believe 
               that using computer is more important than knowing its father's name or mother's name.
               You can judge me after going through my projects.
             </p>
