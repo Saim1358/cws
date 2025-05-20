@@ -45,6 +45,7 @@ export default function Projects() {
                   {item.title}
                 </h4>
                 <Link
+                  aria-disabled=true
                   href={item.href}
                   className="btn btn-primary mt-5"
                   target="_blank"
