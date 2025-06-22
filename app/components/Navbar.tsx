@@ -36,8 +36,8 @@ export default function Navbar() {
   useEffect(() => {
     if (cpath !== "/projects/adda") {
       const navbar = document.querySelector(".navbar")!;
-      let handler = (e: Event) => {
-        //@ts-ignore
+      const handler = (e: Event) => {
+        //@ts-expect-error - target is not typed
         if (!navbar.contains(e.target)) {
           setOpen(false);
         }

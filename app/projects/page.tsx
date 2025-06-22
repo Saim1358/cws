@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import Motion from "@/app/components/Motion";
+import Motion from "../components/Motion";
+import clsx from "clsx";
 
 const projects = [
   {
     title: "ADDA - A Chat App Built With NextJS",
     href: "https://adda-cws.vercel.app/",
     logoUrl: "/img/chatLogo.png",
+    className: "pointer-events-none btn-disabled",
   },
 ];
 
@@ -45,12 +47,12 @@ export default function Projects() {
                   {item.title}
                 </h4>
                 <Link
-                  aria-disabled=true
                   href={item.href}
-                  className="btn btn-primary mt-5"
+                  className={clsx("btn btn-primary mt-5", item.className)}
                   target="_blank"
+                  aria-disabled={item.className === "pointer-events-none btn-disabled"}
                 >
-                  Visit
+                  Under Development
                 </Link>
               </div>
             </Motion>

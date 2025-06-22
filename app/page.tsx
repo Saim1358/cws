@@ -5,7 +5,7 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { FaTelegramPlane } from "react-icons/fa";
-import { FiFacebook, FiLinkedin } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 import Motion from "./components/Motion";
 
 export default function Home() {
@@ -97,7 +97,7 @@ export default function Home() {
             >
               <FaTelegramPlane />
             </Link>
-            <Link
+            {/* <Link
               className={
                 "border-solid border-4 p-3 border-red-500 rounded-full hover:bg-red-500 hover:text-white"
               }
@@ -107,7 +107,7 @@ export default function Home() {
               target="_blank"
             >
               <FiLinkedin />
-            </Link>
+            </Link> */}
           </div>
           <Link
             className={"btn btn-primary"}

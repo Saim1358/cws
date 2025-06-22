@@ -39,10 +39,10 @@ export default function About() {
             transition={{ delay: 0.5, duration: 1 }}
           >
             <p className="text-lg my-5">
-              Hey! I am Saiful Islam Saim . Yah ! I don't have an written certificate to show. 
-              I don't have the opportunity to gather that. I don't 
-              believe that a damn certificate can prove anyone's ability. I believe 
-              that using computer is more important than knowing its father's name or mother's name.
+              Hey! I am Saiful Islam Saim . Yah ! I don&apos;t have an written certificate to show. 
+              I don&apos;t have the opportunity to gather that. I don&apos;t 
+              believe that a damn certificate can prove anyone&apos;s ability. I believe 
+              that using computer is more important than knowing its father&apos;s name or mother&apos;s name.
               You can judge me after going through my projects.
             </p>
             <p className="text-lg my-5">

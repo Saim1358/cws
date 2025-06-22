@@ -1,10 +1,10 @@
-import "./globals.css";
+import type { Metadata, Viewport } from "next";
 import React from "react";
-import Navbar from "./components/Navbar";
-import Providers from "./components/Providers";
-import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import clsx from "clsx";
+import "./globals.css";
+import Providers from "./components/Providers";
+import Navbar from "./components/Navbar";
 import Scripts from "./components/Scripts";
 
 const Font = Poppins({
@@ -13,14 +13,17 @@ const Font = Poppins({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  themeColor: '#0f172a',
+}
+
 export const metadata: Metadata = {
   title: "CodeWithSaim",
   description: "My Portfolio Website !",
-  themeColor: " #0f172a",
   openGraph: {
     title: "CodeWithSaim",
     description: "My Portfolio Website !",
-    url: "https://codewithsaim.vercel.app",
+    url: "https://cwsaim.vercel.app",
     siteName: "CodeWithSaim",
     type: "profile",
   },
@@ -33,14 +36,15 @@ export const metadata: Metadata = {
     },
   },
   manifest: "/webmanifest.json",
-  metadataBase: new URL("https://codewithsaim.vercel.app"),
+  metadataBase: new URL("https://cwsaim.vercel.app"),
 };
+
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html
       lang="en"

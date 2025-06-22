@@ -35,11 +35,11 @@ export default function contact() {
               exit={{ opacity: 0, x: -20 }}
               transition={{ delay: 0.5, duration: 1 }}
             >
-              <div className="facebook flex mt-10 items-center gap-5 relative">
+              <div className="flex mt-10 items-center gap-5 relative">
                 <p>My Facebook Profile</p>
                 <Link
                   className={"btn btn-primary absolute right-3"}
-                  href={"https://www.facebook.com/Saiful.Islam.Saim.1358"}
+                  href={"https://www.facebook.com/saimIsMyName"}
                   target="_blank"
                 >
                   Facebook
@@ -52,18 +52,18 @@ export default function contact() {
               exit={{ opacity: 0, x: -20 }}
               transition={{ delay: 1, duration: 1 }}
             >
-              <div className="Telegram flex mt-10 items-center gap-5 relative">
+              <div className="flex mt-10 items-center gap-5 relative">
                 <p>My Telegram ID</p>
                 <Link
                   className={"btn btn-primary absolute right-3"}
-                  href={"https://www.facebook.com/Saiful.Islam.Saim.1358"}
+                  href={"https://t.me/saimIsMyName"}
                   target="_blank"
                 >
                   Telegram
                 </Link>
               </div>
             </Motion>
-            <Motion
+            {/* <Motion
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
@@ -81,7 +81,7 @@ export default function contact() {
                   LinkedIn
                 </Link>
               </div>
-            </Motion>
+            </Motion> */}
           </div>
           <Motion
             initial={{ opacity: 0, x: -20 }}
