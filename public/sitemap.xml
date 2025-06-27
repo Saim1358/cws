@@ -4,9 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>https://cwsaim.vercel.app/</loc>
   <lastmod>2025-06-27T04:47:37+00:00</lastmod>
@@ -32,11 +29,4 @@
   <lastmod>2025-06-27T04:47:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://cwsaim.vercel.app/cws-resume.pdf</loc>
-  <lastmod>2025-06-26T18:00:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
 </urlset>
