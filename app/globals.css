@@ -13,6 +13,8 @@
   --color-primary: #ef4444;
 }
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 ::selection {
   background: rgb(215, 87, 8);
   color: white;

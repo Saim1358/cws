@@ -5,7 +5,7 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { FaTelegramPlane } from "react-icons/fa";
-import { FiFacebook } from "react-icons/fi";
+import { FiFacebook, FiGithub } from "react-icons/fi";
 import Motion from "./components/Motion";
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="home m-h-screen flex flex-col md:flex-row justify-center items-center pt-8 md:pt-32 px-10 md:px-20">
+      <section className="home m-h-screen flex flex-col md:flex-row justify-center items-center pt-8 px-10 md:px-20">
         <div className="home-content">
           <Motion
             initial={{ opacity: 0, x: -20 }}
@@ -97,17 +97,15 @@ export default function Home() {
             >
               <FaTelegramPlane />
             </Link>
-            {/* <Link
+            <Link
               className={
                 "border-solid border-4 p-3 border-red-500 rounded-full hover:bg-red-500 hover:text-white"
               }
-              href={
-                "https://www.linkedin.com/mwlite/in/saiful-islam-saim-782773278"
-              }
+              href={"https://github.com/Saim1358"}
               target="_blank"
             >
-              <FiLinkedin />
-            </Link> */}
+              <FiGithub />
+            </Link>
           </div>
           <Link
             className={"btn btn-primary"}
@@ -117,13 +115,13 @@ export default function Home() {
             Download Resume
           </Link>
         </div>
-        <div className="hone-img">
+        <div className="home-img h-full w-full px-10 pb-10 flex justify-center items-center">
           <Image
             className="rounded-xl animate-[logo_3s_ease-in-out_infinite] repeat-infinite"
-            src="/img/logoBGRemoved.png"
+            src="/img/mypic.png"
             alt="logo"
-            width={900}
-            height={900}
+            width={500}
+            height={500}
           />
         </div>
       </section>

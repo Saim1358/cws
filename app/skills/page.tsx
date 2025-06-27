@@ -11,12 +11,7 @@ const Skills = () => {
         }
       >
         <div className="skill-image p-10 md:p-0">
-          <Image
-            src="/img/logoBGRemoved.png"
-            alt="Logo"
-            width={1000}
-            height={1000}
-          />
+          <Image src="/img/mypic.png" alt="Logo" width={1000} height={1000} />
         </div>
         <div className="skill-content flex flex-col px-5 lg:justify-center lg:items-center">
           <Motion
